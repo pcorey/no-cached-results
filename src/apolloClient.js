@@ -9,8 +9,6 @@ const resolvers = {
       console.log(search);
       if (search === 0) {
         return "hello";
-      } else if (search === 1) {
-        return "huh?";
       } else {
         return "goodbye";
       }
